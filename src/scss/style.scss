@@ -48,3 +48,31 @@ img{
     
   width: $img-full-size;
 }
+
+
+.contain{
+    display:grid;
+    grid-template-rows: auto;
+      
+}
+
+.contain-total{
+    @extend .contain;
+    grid-template-columns: 1fr;
+}
+
+.contain-half{
+    @extend .contain;
+    grid-template-columns: 1fr 1fr;
+}
+
+.center-cont{
+    text-align: center;
+}
+
+.padding-left{
+    padding-left: 8.33vw;
+}
+.padding-right{
+    padding-right: 8.33vw;
+}

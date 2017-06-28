@@ -60,4 +60,23 @@
 img {
   width: 100%; }
 
+.contain, .contain-total, .contain-half {
+  display: grid;
+  grid-template-rows: auto; }
+
+.contain-total {
+  grid-template-columns: 1fr; }
+
+.contain-half {
+  grid-template-columns: 1fr 1fr; }
+
+.center-cont {
+  text-align: center; }
+
+.padding-left {
+  padding-left: 8.33vw; }
+
+.padding-right {
+  padding-right: 8.33vw; }
+
 /*# sourceMappingURL=style.css.map */
