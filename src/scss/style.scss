@@ -69,10 +69,24 @@ img{
 .center-cont{
     text-align: center;
 }
+.justify{
+    text-align: justify;
+}
 
 .padding-left{
     padding-left: 8.33vw;
 }
 .padding-right{
     padding-right: 8.33vw;
+}
+
+.divisor{
+    border-top: .7vh solid $azul;
+    margin-top: 10vh;
+
+}
+
+.cont-onesix{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
 }
