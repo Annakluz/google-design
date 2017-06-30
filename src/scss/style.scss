@@ -4,7 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Product Sans', Arial, sans-serif;
+    color:#424242;
 }
 
 .container{
@@ -66,6 +67,10 @@ img{
     grid-template-columns: 1fr 1fr;
 }
 
+.contain-third{
+    @extend .contain;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .center-cont{
     text-align: center;
 }
@@ -79,12 +84,20 @@ img{
 .padding-right{
     padding-right: 8.33vw;
 }
+.padding-center{
+    padding-left: 4.15vw;
+    padding-right: 4.15vw;
+}
+
+
 
 .divisor{
     border-top: .7vh solid $azul;
     margin-top: 10vh;
 
 }
+
+
 
 .cont-onesix{
     display: grid;
@@ -97,4 +110,8 @@ img{
 }
 .justify-right{
     text-align: right;
+}
+
+.logo-google{
+    width: 50%;
 }

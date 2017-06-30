@@ -2,7 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Product Sans', Arial, sans-serif;
+  color: #424242; }
 
 .container {
   width: 100%;
@@ -60,7 +61,7 @@
 img {
   width: 100%; }
 
-.contain, .contain-total, .contain-half {
+.contain, .contain-total, .contain-half, .contain-third {
   display: grid;
   grid-template-rows: auto; }
 
@@ -69,6 +70,9 @@ img {
 
 .contain-half {
   grid-template-columns: 1fr 1fr; }
+
+.contain-third {
+  grid-template-columns: 1fr 1fr 1fr; }
 
 .center-cont {
   text-align: center; }
@@ -81,6 +85,10 @@ img {
 
 .padding-right {
   padding-right: 8.33vw; }
+
+.padding-center {
+  padding-left: 4.15vw;
+  padding-right: 4.15vw; }
 
 .divisor {
   border-top: 0.7vh solid #4285f4;
@@ -95,5 +103,8 @@ img {
 
 .justify-right {
   text-align: right; }
+
+.logo-google {
+  width: 50%; }
 
 /*# sourceMappingURL=style.css.map */
